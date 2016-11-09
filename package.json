@@ -1,0 +1,26 @@
+{
+  "name": "jquery-asSelect",
+  "version": "1.0.0",
+  "description": "级联select",
+  "main": "jquery.asSelector.js",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voyageivi/jquery-asSelect.git"
+  },
+  "keywords": [
+    "select"
+  ],
+  "author": "lfy.ang99@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voyageivi/jquery-asSelect/issues"
+  },
+  "homepage": "https://github.com/voyageivi/jquery-asSelect#readme"
+}

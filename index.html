@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="jquery.asSelector.js"></script>
+</head>
+<body>
+
+<form action="">
+    <!--<div id="upload" data-url="test"></div>-->
+    <select name="test1"></select>
+    <select name="test2"></select>
+    <select name="test3"></select>
+</form>
+<script>
+    $(function(){
+                $('form').asSelect({
+                    url:[{
+                        "n": "Digital",
+                        "v": "Digital",
+                        "s": [{
+                            "n": "选择Digital类型",
+                            "v": ""
+                        }, {
+                            "n": "Ebook",
+                            "v": "EBOOK",
+                            "s":[
+                                {"n":"test1","v":"test1"},
+                                {"n":"test2","v":"test2"},
+                            ]
+                        }, {
+                            "n": "Music",
+                            "v": "MUSIC",
+                        }]
+                    }, {
+                        "n": "Video",
+                        "v": "Video",
+                        "s": [{
+                            "n": "请选择Video类型",
+                            "v": ""
+                        }, {
+                            "n": "Video",
+                            "v": "VIDEO"
+                        }]
+                    }],
+                    selects:['test1','test2','test3'],
+                })
+            }
+    );
+</script>
+</body>
+<html>
